@@ -1,0 +1,11 @@
+Model Information:
+* title:	Walkie Talkie
+* source:	https://sketchfab.com/3d-models/walkie-talkie-5d57f97915a844f584157cb86a474eba
+* author:	barism09 (https://sketchfab.com/barism09)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Walkie Talkie" (https://sketchfab.com/3d-models/walkie-talkie-5d57f97915a844f584157cb86a474eba) by barism09 (https://sketchfab.com/barism09) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

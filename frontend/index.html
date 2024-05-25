@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>stock</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+<body id="body">
+<header class="header">
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__list-item"><a href="home.html" class="header-nav__list-link">Главная</a></li>
+                    <li class="header-nav__list-item"><a href="index.html" class="header-nav__list-link">Склад</a></li>
+                    <li class="header-nav__list-item"><a href="#" class="header-nav__list-link">Шахты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="preview">
+        <div class="container">
+            <div class="preview-wrapper">
+                <div class="preview__title">
+                    <h1 class="preview__title-text">Склад</h1>
+                </div>
+                <div class="users">
+                    <div class="users-tools">
+                        <div class="users-tools__input">
+                            <div class="users-tools__input-search-block">
+                                <input class="users-tools__input-search" id="search" type="search" required>
+                                <label class="users-tools__input-search-label" for="search">Поиск</label>
+                            </div>
+                        </div>
+
+                        <div class="users-tools-sort">
+                            <span class="users-tools-sort__title">Сортировка:</span>
+                            <div class="users-tools-sort-dropdown">
+                                <div class="users-tools-sort-dropdown__select">
+                                    <span class="users-tools-sort-dropdown__select-selected">По популярности</span>
+                                    <div class="users-tools-sort-dropdown__select-caret">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <ul class="users-tools-sort-dropdown__menu">
+                                    <li class="active">По возрастанию цены</li>
+                                    <li>По убыванию цены</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="users-data">
+                        <div class="users-data__counter">Загружено записей: <span>0</span></div>
+
+                        <div class="users-data-items" id="wrapper">
+                            <span class="loader" style="display: none"></span>
+                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">PSVS</div>
+                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Кабель</div>
+                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Клещ</div>
+                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">MPC</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="popup">
+        <div class="modal">
+        </div>
+    </div>
+
+
+    <script src="js/module/search.js"></script>
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
