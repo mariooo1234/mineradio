@@ -8,14 +8,14 @@ function init() {
 
     //Scene
     const scene = new THREE.Scene()
-    scene.background = new THREE.Color("transparent");
 
     //Camera
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 3000);
     camera.position.set(0, 0.5, 1)
 
     //render
-    const renderer = new THREE.WebGLRenderer({antialias: true})
+    const renderer = new THREE.WebGLRenderer({alpha: true, antialias: true})
+    renderer.setClearColor(0x000000, 0);
     renderer.setSize(window.innerWidth, window.innerHeight, true)
     container.appendChild(renderer.domElement)
 
@@ -34,7 +34,7 @@ function init() {
     // Model
     {
         const loader = new GLTFLoader();
-        loader.load('./img/model/scene.gltf', gltf => {
+        loader.load('./img/home/model/scene.gltf', gltf => {
                 scene.add(gltf.scene);
             },
             function (error) {

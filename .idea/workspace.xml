@@ -5,14 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bbd16d-8ec7-4203-91ca-918684cb389d" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/frontend/css/homePage/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/GLTFLoader.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/css/minePage/mine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/css/stockPage/stock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/img/home/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/img/home/person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/js/module/color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/js/module/draggble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/js/module/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/js/module/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/mine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/homePage/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/homePage/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/homePage/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/homePage/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/homePage/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/homePage/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/homePage/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/module/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/module/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/module/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/module/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/module/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/module/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/scene.bin" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/scene.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/scene.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/scene.gltf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/textures/Chacker_baseColor.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/textures/Chacker_baseColor.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/textures/Chacker_emissive.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/textures/Chacker_emissive.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/textures/Chacker_metallicRoughness.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/textures/Chacker_metallicRoughness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/model/textures/Chacker_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/home/model/textures/Chacker_normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/js/module/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/module/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/three.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/module/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/module/search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +50,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2gxfewSUHX3XYiQX7ZoVjDrsENo" />
   <component name="ProjectViewState">
@@ -40,10 +69,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/PhpstormProjects/mineRadio/frontend/css/homePage",
+    "last_opened_file_path": "C:/Users/User/PhpstormProjects/mineRadio/frontend/js/module",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,7 +87,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PhpstormProjects\mineRadio\frontend\js\module" />
+      <recent name="C:\Users\User\PhpstormProjects\mineRadio\frontend\img\home" />
       <recent name="C:\Users\User\PhpstormProjects\mineRadio\frontend\css\homePage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PhpstormProjects\mineRadio\frontend\img\home" />
+      <recent name="C:\Users\User\PhpstormProjects\mineRadio\frontend\img\stock" />
+      <recent name="C:\Users\User\PhpstormProjects\mineRadio\frontend\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,6 +106,9 @@
       <option name="presentableId" value="Default" />
       <updated>1716644247385</updated>
       <workItem from="1716644248436" duration="21433000" />
+      <workItem from="1717055470662" duration="36759000" />
+      <workItem from="1718195737217" duration="8524000" />
+      <workItem from="1718220135751" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1717055133870</created>
@@ -76,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717055133870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1717055713252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717055713252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

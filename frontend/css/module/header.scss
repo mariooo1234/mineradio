@@ -17,11 +17,46 @@
 
   &-nav {
     width: 100%;
-
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    &__logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #9F64EC;
+      font-size: 20px;
+      margin-right: 20px;
+      cursor: default;
+      & span {
+        color: #4d9ada;
+      }
+    }
+    &__btns {
+      display: flex;
+    }
     &__list {
       display: flex;
       flex-flow: row nowrap;
-      justify-content: space-around;
+      align-items: center;
+      gap: 50px;
+      color: black;
+      padding-right: 100px;
+      white-space: pre;
+
+      & .active {
+        color: #861f41;
+        border-bottom: 1px solid #861f41;
+      }
+    }
+    &_user {
+      display: flex;
+
+      margin-left: 50px;
+      & img {
+        border-radius: 50%;
+        cursor: pointer;
+      }
     }
   }
 }

@@ -1,7 +1,12 @@
 .slider {
-  background: url("map.png") center no-repeat;
+  margin-top: 75px;
+  background: url("../../img/home/map.png") center no-repeat;
   position: relative;
-  z-index: 11;
+  z-index: 9;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #861f41;
 }
 
 .swiper {
@@ -13,25 +18,26 @@
 
   &-slide {
     padding: 100px;
-    height: 600px;
+    height: 90vh;
     display: flex;
     justify-content: start;
     align-items: center;
 
     &-content {
       max-width: 450px;
-      text-align: center;
+
       & h2 {
         text-transform: uppercase;
         font-weight: 700;
-        color: black;
+        color: #861f41;
         font-size: 33px;
         margin-bottom: 30px;
       }
+
       & p {
         font-weight: 400;
         color: black;
-        font-size: 18px;
+        font-size: 22px;
       }
     }
   }
@@ -42,11 +48,14 @@
 
   &-button-prev {
     &::after {
-      color: black;
+      color: #861f41;
     }
   }
 
   &-button-next {
+    &::after {
+      color: #861f41;
+    }
 
   }
 
@@ -59,4 +68,52 @@
     right: 0;
     z-index: 2;
   }
+}
+
+.achievements {
+  padding: 40px 0;
+  &-wrapper {
+
+  }
+
+  &-items {
+    max-height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &-item {
+      width: 200px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        p {
+          color: #861f41;
+        }
+        svg {
+          fill: #861f41;
+        }
+      }
+
+      & svg {
+        transition: 0.3s ease-in-out;
+      }
+
+      & p {
+        margin-top: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+        transition: 0.2s ease-in-out;
+
+      }
+    }
+  }
+
 }

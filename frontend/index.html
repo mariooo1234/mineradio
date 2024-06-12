@@ -17,11 +17,18 @@
     <div class="container">
         <div class="header-wrapper">
             <div class="header-nav">
-                <ul class="header-nav__list">
-                    <li class="header-nav__list-item"><a href="home.html" class="header-nav__list-link">Главная</a></li>
-                    <li class="header-nav__list-item"><a href="index.html" class="header-nav__list-link">Склад</a></li>
-                    <li class="header-nav__list-item"><a href="#" class="header-nav__list-link">Шахты</a></li>
-                </ul>
+                <div class="header-nav__logo">
+                    <img src="img/home/logo.svg" alt="">
+                </div>
+                <div class="header-nav__btns">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__list-item"><a href="home.html" class="header-nav__list-link">Главная</a></li>
+                        <li class="header-nav__list-item active"><a href="index.html" class="header-nav__list-link">Склад</a></li>
+                        <li class="header-nav__list-item"><a href="mine.html" class="header-nav__list-link">Шахты</a></li>
+                    </ul>
+
+                    <img src="img/home/person.svg" alt="" class="user__pic">
+                </div>
             </div>
         </div>
     </div>
@@ -44,18 +51,18 @@
 
                         <div class="users-tools-sort">
                             <span class="users-tools-sort__title">Сортировка:</span>
-                            <div class="users-tools-sort-dropdown">
-                                <div class="users-tools-sort-dropdown__select">
-                                    <span class="users-tools-sort-dropdown__select-selected">По популярности</span>
-                                    <div class="users-tools-sort-dropdown__select-caret">
+                            <div class="users-tools-sort__dropdown">
+                                <div class="users-tools-sort__dropdown_select">
+                                    <span class="users-tools-sort__dropdown_select_selected">По дате добваления</span>
+                                    <div class="users-tools-sort__dropdown_select-caret">
                                         <span></span>
                                         <span></span>
                                         <span></span>
                                     </div>
                                 </div>
-                                <ul class="users-tools-sort-dropdown__menu">
-                                    <li class="active">По возрастанию цены</li>
-                                    <li>По убыванию цены</li>
+                                <ul class="users-tools-sort__dropdown__menu">
+                                    <li id="name">По алфавиту а-я</li>
+                                    <li id="value">По количеству</li>
                                 </ul>
                             </div>
                         </div>
@@ -64,12 +71,15 @@
                         <div class="users-data__counter">Загружено записей: <span>0</span></div>
 
                         <div class="users-data-items" id="wrapper">
-                            <span class="loader" style="display: none"></span>
-                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">PSVS</div>
-                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Кабель</div>
-                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Клещ</div>
-                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">MPC</div>
-
+<!--                            <span class="loader"></span>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">PSVS</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Кабель</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Клещ</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">MPS</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">PSB</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">MRS</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">Конвертер</div>-->
+<!--                            <div class="users-data-items-item" style="left: 0px; opacity: 1;">ILLB</div>-->
                         </div>
                     </div>
                 </div>
@@ -83,12 +93,15 @@
         </div>
     </div>
 
-
-    <script src="js/module/search.js"></script>
-
 </main>
 <footer>
 
 </footer>
+
+<script src="js/module/search.js"></script>
+<script src="js/module/render.js"></script>
+<script src="js/module/dropdown.js"></script>
+<script src="js/app.js"></script>
+
 </body>
 </html>
